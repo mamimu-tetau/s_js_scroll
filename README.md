@@ -1,6 +1,7 @@
 # s_js_scroll
 ページ内スクロール、他ページからの推移にも対応
 
+```
 $(function(){
   // 全てのアンカータグを対象にする
   $('a').click(function(e){
@@ -27,5 +28,7 @@ $(function(){
     }
   });
 });
+
+```
 
 https://commono.jp/2017/11/22/how_to_adopt_smooth-scroll_to_full_path_url/
